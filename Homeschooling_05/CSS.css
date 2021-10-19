@@ -1,0 +1,11 @@
+body{
+    background-image:url(images/patterns/pattern_02.jpg),url(../s)
+    background-repeat: no-repeat;
+    background-position: 20% 50%;
+    background-size: 500px;
+    
+     background-image:url(images/patterns/pattern_03.png);
+    background-repeat: no-repeat;
+    background-position: 50% 200%;
+    background-size: 500px;
+}

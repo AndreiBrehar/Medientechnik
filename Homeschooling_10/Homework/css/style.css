@@ -1,0 +1,77 @@
+* {
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+  }
+  body{
+  	font-family: Arial, Helvetica, sans-serif;
+  }
+  h2{
+  	text-align: center;
+  	margin-top: 10px;
+  }
+  /*flex*/
+ /****/
+  .container1{
+  	display: flex;
+  	align-self: flex-start;
+  	padding: 5%;
+  }
+  .container1{
+  	display: flex;
+  	background-color: silver;
+  	padding: 5%;
+  	align-content: flex-start;
+  }
+  /flex items/
+ .flexitem{
+ 	align-self: flex-start;
+ }
+ .fleximage{
+  	display: flex;
+  	align-self: flex-end;
+  	max-width: 100%;
+  	box-shadow: 20px 5px 35px, black;
+ }	
+ .flexitem1{
+ 	align-self: flex-end;
+ 	margin-left: 7%;
+ 	margin-bottom: 9%;
+ }
+ 
+/*end flex*/
+
+  /*.row:after{	 /*beendet float Zustand und die rows werden dadurch wieder untereinander positioniert:
+
+  	content:"";
+  	display: table;
+  	clear: both;		
+    #00FFFF
+  }*/
+  
+  /*decoration*/
+ .large-font{
+ 	color:  black;
+ 	font-weight: bold;
+ 	margin-bottom: 3%;
+ }
+  .button{
+  	display: inline-block;
+  	text-decoration: none;
+  	background-color: #008b8b;
+  	color: white;
+  	padding: 2%;
+  	margin-top: 2%;
+  	cursor: pointer;
+  }
+  .button:hover{
+  	background-color: white;
+  	color: blue;
+  	box-shadow: 5px 5px 30px, black;
+  }
+  @media screen and (max-width: 1000px){
+  	.column-60,
+  	.column-40{
+  		width: 100%;
+  		text-align: center;
+      }

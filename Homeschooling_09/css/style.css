@@ -1,0 +1,107 @@
+/* remove default margin, setting font and filling area */
+* {
+margin:0px;
+padding:0px;
+}
+/************body************/
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../img/pattern.jpg);
+    line-height: 140%;
+    width: 900px;
+    margin: 0 auto;
+}
+#wrapper{
+    width: 800px;
+    margin: 0px auto;
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+/************Navigation******************/
+#mainmenu {
+    background-color: #424242;
+    font-size: 0;
+    margin-bottom: 10px;
+}
+#mainmenu a {
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    text-transform:uppercase;
+    padding-top: 8px;
+    padding-bottom: 9px;
+    text-decoration: none;
+    width:20%;
+    display: inline-block;
+    vertical-align: top; 
+}
+#mainmenu a:hover {
+    color: white;
+    background-color: #5e9c26;
+}
+#mainbox{
+    background-color: #ebebe0;
+    border-left: 10px solid #424242;
+    padding: 20px;
+    margin 10px 0px;
+}
+
+/************Typo******************/
+h1{
+    font-size: 22px;
+    color: #5e9c26;
+    margin-bottom: 15px;
+}
+h2{
+    font-size: 18px;
+    color: #5e9c26;
+}
+p{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+ul{
+    font-size: 14px;
+    font-weight: bold;
+    color: #5e9c26;
+    padding-left: 50px;
+}
+.links{
+    font-weight: bold;
+    color: #5e9c26;
+}
+
+
+/***********Image*****************/
+#bild1{
+    border: 10px solid #424242;
+    width: 800px;
+    box-sizing: border-box;
+}
+.bild2{
+    width: 300px;
+    margin: 10px 0 10px 0;
+}
+.bild3{
+    height: 200px;
+    margin: 0 10px;
+}
+
+/**************Footer*******************/
+footer{
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    background-color: #424242;
+}
+
+
+
+
+
+
+
